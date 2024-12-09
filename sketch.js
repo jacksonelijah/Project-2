@@ -135,21 +135,21 @@ let wordArray = [
   "Go",
   "Work",
   "Sleep",
-  ""
+  "Hello",
   "Synth",
   "Glove",
 ];
 
 let noteImageArray = [
-  "noteImages/A.png",
-  "noteImages/B.png",
-  "noteImages/C.png",
-  "noteImages/D.png",
-  "noteImages/E.png",
-  "noteImages/F.png",
-  "noteImages/G.png",
-  "noteImages/LOW_E.png",
-  "noteImages/LOW_F.png",
+  "A.png",
+  "B.png",
+  "C.png",
+  "D.png",
+  "E.png",
+  "F.png",
+  "G.png",
+  "LOW_E.png",
+  "LOW_F.png",
 ];
 
 let pianoSounds = [];
@@ -169,27 +169,27 @@ function preload() {
   }
 
   pianoSounds = [
-    loadSound("pianoNotes/a.mp3"),
-    loadSound("pianoNotes/b.mp3"),
-    loadSound("pianoNotes/c.mp3"),
-    loadSound("pianoNotes/d.mp3"),
-    loadSound("pianoNotes/e.mp3"),
-    loadSound("pianoNotes/f.mp3"),
-    loadSound("pianoNotes/g.mp3"),
-    loadSound("pianoNotes/lowE.mp3"),
-    loadSound("pianoNotes/lowF.mp3"),
+    loadSound("a.mp3"),
+    loadSound("b.mp3"),
+    loadSound("c.mp3"),
+    loadSound("d.mp3"),
+    loadSound("e.mp3"),
+    loadSound("f.mp3"),
+    loadSound("g.mp3"),
+    loadSound("lowE.mp3"),
+    loadSound("lowF.mp3"),
   ];
 
   synthSounds = [
-    loadSound("synthNotes/as.mp3"),
-    loadSound("synthNotes/bs.mp3"),
-    loadSound("synthNotes/cs.mp3"),
-    loadSound("synthNotes/ds.mp3"),
-    loadSound("synthNotes/es.mp3"),
-    loadSound("synthNotes/fs.mp3"),
-    loadSound("synthNotes/gs.mp3"),
-    loadSound("synthNotes/lowes.mp3"),
-    loadSound("synthNotes/lowfs.mp3"),
+    loadSound("as.mp3"),
+    loadSound("bs.mp3"),
+    loadSound("cs.mp3"),
+    loadSound("ds.mp3"),
+    loadSound("es.mp3"),
+    loadSound("fs.mp3"),
+    loadSound("gs.mp3"),
+    loadSound("lowes.mp3"),
+    loadSound("lowfs.mp3"),
   ];
 }
 
